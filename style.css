@@ -1,0 +1,186 @@
+html {
+    font-size: 10px;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+    overflow: auto;
+    margin: 0;
+}
+
+#navBarContainer {
+    width: 100%;
+}
+
+#navBarContainer li:first-child {
+    font-size: 25px;
+}
+
+#navBarContainer li:nth-child(2),
+#navBarContainer li:nth-child(3),
+#navBarContainer li:nth-child(4) {
+    padding: 11.5px 8px;
+    color: white;
+}
+
+#navBarContainer li {
+    display: inline-block;
+    padding: 8px;
+    font-size: 20px;
+}
+
+#navBarContainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#titleColor1,
+#titleColor2 {
+    display: inline;
+}
+
+#titleColor1 {
+    color: orange;
+}
+
+#titleColor2 {
+    color: white;
+}
+
+#ourMissionContainer {
+    position: fixed;
+    width: 60%;
+    left: 20%;
+    right: 20%;
+    top: 29%;
+    text-align: center;
+}
+
+#ourMissionTitle {
+    font-size: 35px;
+}
+
+#ourMissionText p {
+    font-size: 20px;
+    margin: 0;
+}
+
+#learnMoreContainer {
+    position: fixed;
+    width: 60%;
+    left: 20%;
+    right: 20%;
+    top: 30%;
+    text-align: center;
+}
+
+#learnMoreContainer p {
+    margin-bottom: 15px;
+}
+
+#learnMoreTitle {
+    font-size: 35px;
+}
+
+#learnMoreText p {
+    font-size: 20px;
+    margin: 0;
+}
+
+#aboutUsContainer {
+    position: fixed;
+    width: 60%;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    text-align: center;
+}
+
+#aboutUsContainer p {
+    margin-bottom: 15px;
+}
+
+#aboutUsTitle {
+    font-size: 35px;
+}
+
+#aboutUsContainer #image1 {
+    position: fixed;
+    float: left;
+    top: 35%;
+    left: 15%;
+    border: 5px solid orange;
+}
+
+#aboutUsContainer #image2 {
+    position: fixed;
+    float: right;
+    top: 35%;
+    right: 15%;
+    border: 5px solid orange;
+}
+
+#aboutUsContainer #bio1p1 {
+    position: fixed;
+    float: left;
+    top: 70%;
+    left: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#aboutUsContainer #bio1p2 {
+    position: fixed;
+    float: left;
+    top: 73%;
+    left: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#aboutUsContainer #bio1p3 {
+    position: fixed;
+    float: left;
+    top: 76%;
+    left: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#aboutUsContainer #bio2p1 {
+    position: fixed;
+    float: right;
+    top: 70%;
+    right: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#aboutUsContainer #bio2p2 {
+    position: fixed;
+    float: right;
+    top: 73%;
+    right: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#aboutUsContainer #bio2p3 {
+    position: fixed;
+    float: right;
+    top: 76%;
+    right: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.aboutUsImg {
+    border-radius: 50%;
+    width: 250px;
+    height: 200px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = 'en-US'>
+    <head>
+        <meta charset = 'utf-8' />
+        <meta name = 'viewport' content = 'width = device-width' />
+        <title>PTA-Tastic</title>
+        <link href = 'styles/style.css' rel = 'stylesheet' />
+        <link href = 'https://fonts.googleapis.com/css?family=Mukta+Vaani' rel = 'stylesheet' />
+    </head>
+    <body>
+        <div id = 'navBarContainer'>
+            <ul>
+                <div id = 'title'>
+                    <li style = 'float: left;'><div id = 'titleColor1'>PTA</div><div id = 'titleColor2'>Tastic</div></li>
+                </div>
+                <li id = 'aboutUs' style = 'float: right;' onclick = 'setActivePage(2)'>About us</li>
+                <li id = 'learnMore' style = 'float: right;' onclick = 'setActivePage(1)'>Learn more</li>
+                <li id = 'ourMission' style = 'float: right;' onclick = 'setActivePage(0)'>Our Mission</li>
+            </ul>
+        </div>
+        <div id = 'ourMissionContainer'>
+            <div id = 'ourMissionTitle'>
+                <p>Our Mission:</p>
+            </div>
+            <div id = 'ourMissionText'>
+                <p>To encourage parents to take on a leadership role</p>
+                <p>by joining the PTA. We also hope to inprove the</p>
+                <p>quality of and, therefore, the inscentive to participate</p>
+                <p>in these fundraising events.</p>
+            </div>
+        </div>
+        <div id = 'learnMoreContainer'>
+            <div id = 'learnMoreTitle'>
+                <p>Learn More</p>
+            </div>
+            <div id = 'learnMoreText'>
+                <p><a href="https://www.signupgenius.com/go/70a0848a8af2ca57-volunteers#/">Big Night Out</a></p>
+                <p><a href="https://jmlpta1.memberhub.com/w/">Join the PTA!</a></p>
+            </div>
+        </div>
+        <div id = 'aboutUsContainer'>
+            <div id = 'aboutUsTitle'>
+                <p>About Us</p>
+            </div>
+            <div id = 'aboutUsImages'>
+                <img id = 'image1' class = 'aboutUsImg' src = 'images/devon-brown-site-img.png'></img>
+                <img id = 'image2' class = 'aboutUsImg' src = 'images/ryan-wang-site-img.png'></img>
+            </div>
+            <div id = 'aboutUsBios'>
+                <p id = 'bio1p1'>Hi, my name is Devon and I am an eighth grader</p>
+                <p id = 'bio1p2'>at J. Michael Lunsford middle school. I enjoy</p>
+                <p id = 'bio1p3'>programming and playing video games in my free time.</p>
+                <p id = 'bio2p1'>Hi, my name is Ryan and I am an eighth grader</p>
+                <p id = 'bio2p2'>at J. Michael Lunsford middle school. In my free</p>
+                <p id = 'bio2p3'>time, I enjoy playing basketball and video games.</p>
+            </div>
+        </div>
+        <script src = 'scripts/main.js'></script>
+    </body>
+</html>
